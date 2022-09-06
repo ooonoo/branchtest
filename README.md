@@ -19,4 +19,8 @@
 - 【ターミナル】 git branch
 - 【ターミナル】 git checkout main
 - 【ターミナル】 git branch
+<<<<<<< HEAD
 - 【ターミナル】 git br -d  【branch名】
+=======
+- 【ターミナル】 git br -d  【branch名】
+>>>>>>> 1b4c4ccfd4b5f9b55b3156714b8c5de36d75542a
