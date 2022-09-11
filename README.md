@@ -20,6 +20,7 @@
 - 【ターミナル】 git branch
 - 【ターミナル】 git checkout main
 - 【ターミナル】 git branch
+- 【ターミナル】 git pull origin main
 - 【ターミナル】 git br -d  【branch名】
 - 【ターミナル】 git br -d  【branch名】
 - 【ターミナル】 git br -d  【branch名】
