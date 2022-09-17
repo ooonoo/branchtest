@@ -5,7 +5,7 @@
 - 【vscode】git clone "githubのファイルデータ"
 - 【vscode】git code .
 
-## git 手順書
+## ファイル作成git 手順書
 
 - githubでrepositoryを作る
 
@@ -35,6 +35,7 @@ git push origin HEAD
 ```
 
 - githubでpull request
+- pullrequestにissue番号を付ける
 - githubでmarge
 
 ```shell
