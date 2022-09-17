@@ -1,5 +1,8 @@
 # README
 
+## vscodeファイル展開 手順書
+- 【vscode】git clone "githubのファイルデータ"
+- 【vscode】git code .
 ## git 手順書
 - 【github】Create a new repository
 - 名前を付ける
