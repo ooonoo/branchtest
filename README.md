@@ -1,29 +1,46 @@
 # README
 
 ## vscodeファイル展開 手順書
+
 - 【vscode】git clone "githubのファイルデータ"
 - 【vscode】git code .
+
 ## git 手順書
-- 【github】Create a new repository
-- 名前を付ける
-- 【ターミナル】 pwdで現在位置を確認しbscneへ移動
-- 【ターミナル】 git clone 【git@github,com:ooonoo/ファイル名】
-- 【ターミナル】 code . 
+
+- githubでrepositoryを作る
+
+```shell
+//現在のディレクトリを確認
+pwd
+
+//repositoryの複製
+git clone 【git@github,com:ooonoo/ファイル名】
+
+//vscodeを開く
+code .
+```
+
 
 ## branch 手順書
+
 - コード等作成、訂正
-- 【ターミナル】 git branch
-- 【ターミナル】 git checkout -b 【branch名】
-- 【ターミナル】 git branch
-- 【ターミナル】 git add .
-- 【ターミナル】 git comment -m "メッセージ"
-- 【ターミナル】 git push origin HEAD
-- 【github】pull request
-- 【github】marge
-- 【ターミナル】 git branch
-- 【ターミナル】 git checkout main
-- 【ターミナル】 git branch
-- 【ターミナル】 git pull origin main
-- 【ターミナル】 git br -d  【branch名】
-- 【ターミナル】 git br -d  【branch名】
-- 【ターミナル】 git br -d  【branch名】
+
+```shell
+git branch
+git checkout -b 【branch名】
+git branch
+git add .
+git comment -m "メッセージ"
+git push origin HEAD
+```
+
+- githubでpull request
+- githubでmarge
+
+```shell
+git branch
+git checkout main
+git branch
+git pull origin main
+git br -d  【branch名】
+```
